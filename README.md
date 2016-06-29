@@ -6,7 +6,7 @@ building Drupal modules. This repository contains a folder structure as well as
 a set of README documents that should be used as a guide and nothing more.
 
 ## Version Information
-The current DMSpec version is 1.0, which has been created to support module
+The current DMSpec version is 1, which has been created to support module
 development in Drupal 7. Future versions of this specification will support
 Drupal 8.
 
