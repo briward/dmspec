@@ -11,10 +11,11 @@ development in Drupal 7. Future versions of this specification will support
 Drupal 8.
 
 ## Structure of the specification
-The structure of the specification was created over time. For more information
-about each section, please read the associated README document.
+The structure of the specification was created and refined over time. For more
+information about the purpose of each section, please read the associated
+README document.
 
-* **Assets** - [Please see README document.](https://github.com/briward/dmspec/blob/develop/assets/README.md)
-* **Hooks** - [Please see README document.](https://github.com/briward/dmspec/blob/develop/hooks/README.md)
-* **Src** - [Please see README document.](https://github.com/briward/dmspec/blob/develop/src/README.md)
-* **Templates** - [Please see README document.](https://github.com/briward/dmspec/blob/develop/templates/README.md)
+* **Assets** - [More information](https://github.com/briward/dmspec/blob/develop/assets/README.md)
+* **Hooks** - [More information](https://github.com/briward/dmspec/blob/develop/hooks/README.md)
+* **Src** - [More information](https://github.com/briward/dmspec/blob/develop/src/README.md)
+* **Templates** - [More information](https://github.com/briward/dmspec/blob/develop/templates/README.md)

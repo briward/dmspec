@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * DMSpec Init
+ */
+
+module_load_include('inc', 'dmspec', 'hooks/dmspec.theme');
+module_load_include('inc', 'dmspec', 'hooks/dmspec.menu');
+module_load_include('inc', 'dmspec', 'hooks/dmspec.cron');
+module_load_include('inc', 'dmspec', 'hooks/dmspec.block');
+module_load_include('inc', 'dmspec', 'hooks/dmspec.entity');
+module_load_include('inc', 'dmspec', 'hooks/dmspec.page');
+module_load_include('inc', 'dmspec', 'hooks/dmspec.node');
+module_load_include('inc', 'dmspec', 'hooks/dmspec.form');
