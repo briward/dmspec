@@ -19,3 +19,8 @@ README document.
 * **Hooks** - [More information](https://github.com/briward/dmspec/blob/develop/hooks/README.md)
 * **Src** - [More information](https://github.com/briward/dmspec/blob/develop/src/README.md)
 * **Templates** - [More information](https://github.com/briward/dmspec/blob/develop/templates/README.md)
+
+## Autoloading
+The autoloading of the files within the **src** directory is not part of the
+specification, however an example of how this may be approached has been added
+to the **dmspec.info** file (registry_autoload).
