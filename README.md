@@ -1,9 +1,9 @@
-# DMSpec Version 1.0 - Drupal Module Specification
+# DMSpec 1 - Drupal Module Specification
 
 ## Introduction
-The purpose of DMSpec is to provide a common structure and approach to building
-Drupal modules. This repository contains a folder structure as well as a set of
-README documents that should be used as a guide and nothing more.
+The purpose of DMSpec is to provide a recommended structure and approach to
+building Drupal modules. This repository contains a folder structure as well as
+a set of README documents that should be used as a guide and nothing more.
 
 ## Version Information
 The current DMSpec version is 1.0, which has been created to support module
