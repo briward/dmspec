@@ -14,14 +14,7 @@ Drupal 8.
 The structure of the specification was created over time. For more information
 about each section, please read the associated README document.
 
-### assets
-[Please see README document.](https://github.com/briward/dmspec/blob/develop/assets/README.md)
-
-### hooks
-[Please see README document.](https://github.com/briward/dmspec/blob/develop/hooks/README.md)
-
-### src
-[Please see README document.](https://github.com/briward/dmspec/blob/develop/src/README.md)
-
-### templates
-[Please see README document.](https://github.com/briward/dmspec/blob/develop/templates/README.md)
+* **Assets** - [Please see README document.](https://github.com/briward/dmspec/blob/develop/assets/README.md)
+* **Hooks** - [Please see README document.](https://github.com/briward/dmspec/blob/develop/hooks/README.md)
+* **Src** - [Please see README document.](https://github.com/briward/dmspec/blob/develop/src/README.md)
+* **Templates** - [Please see README document.](https://github.com/briward/dmspec/blob/develop/templates/README.md)
