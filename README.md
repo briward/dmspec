@@ -12,7 +12,7 @@ Drupal 8.
 
 ## Structure of the specification
 The structure of the specification was created and refined over time. For more
-information about the purpose of each section, please read the associated
+information about the purpose of each section, please read the respective
 README document.
 
 * **Assets** - [More information](https://github.com/briward/dmspec/blob/develop/assets/README.md)
