@@ -5,11 +5,11 @@
  * DMSpec Init
  */
 
-module_load_include('inc', 'dmspec', 'hooks/dmspec.theme');
-module_load_include('inc', 'dmspec', 'hooks/dmspec.menu');
-module_load_include('inc', 'dmspec', 'hooks/dmspec.cron');
-module_load_include('inc', 'dmspec', 'hooks/dmspec.block');
-module_load_include('inc', 'dmspec', 'hooks/dmspec.entity');
-module_load_include('inc', 'dmspec', 'hooks/dmspec.page');
-module_load_include('inc', 'dmspec', 'hooks/dmspec.node');
-module_load_include('inc', 'dmspec', 'hooks/dmspec.form');
+// Recursively load all files under the Hooks directory.
+$directory = new RecursiveDirectoryIterator(__DIR__ . DIRECTORY_SEPARATOR . 'hooks' . DIRECTORY_SEPARATOR);
+$recIterator = new RecursiveIteratorIterator($directory);
+$regex = new RegexIterator($recIterator, '/\.(inc|php)$/i');
+
+foreach ($regex as $item) {
+ include $item->getPathname();
+}
