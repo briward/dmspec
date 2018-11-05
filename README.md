@@ -1,4 +1,4 @@
-# DMSpec 1 - Drupal Module Specification
+# DMSpec 2 - Drupal Module Specification
 
 ## Introduction
 The purpose of DMSpec is to provide a recommended structure and approach to
@@ -6,9 +6,9 @@ building Drupal modules. This repository contains a folder structure as well as
 a set of README documents that should be used as a guide and nothing more.
 
 ## Version Information
-The current DMSpec version is 1, which has been created to support module
-development in Drupal 7. Future versions of this specification will support
-Drupal 8.
+The current DMSpec version is 2, which has been created to support module
+development in Drupal 8. A previous version is available which supports Drupal 7 
+module development.
 
 ## Structure of the specification
 The structure of the specification was created and refined over time. For more
@@ -21,6 +21,5 @@ README document.
 * **Templates** - [More information](https://github.com/briward/dmspec/blob/develop/templates/README.md)
 
 ## Autoloading
-The autoloading of the files within the **src** directory is not part of the
-specification, however an example of how this may be approached has been added
-to the **dmspec.info** file (registry_autoload).
+The autoloading of the files within the **src** directory is handled by the
+core Drupal class autoloader.
