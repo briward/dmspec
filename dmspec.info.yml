@@ -1,0 +1,11 @@
+# Module Information
+name: Drupal Module Specification
+description: Provides a specification for building Drupal Modules.
+
+# Module Version
+core: 8.x
+version: 8.x-1.0
+
+# Module Organisation
+package: DMSpec
+project: dmspec
